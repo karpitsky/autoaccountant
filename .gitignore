@@ -1,0 +1,46 @@
+syntax: glob
+
+*.py[cod]
+*.pyc
+*.so
+*.db
+*.mo
+*.pid
+*.log
+.*.swp
+*.*~
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# Installer logs / Unit test / coverage reports
+pip-log.txt
+.coverage
+.tox
+nosetests.xml
+
+# Project specific
+*.orig
+.idea/
+src/
+build/
+logs/*
+dump.rdb
+.DS_Store
+**/.DS_Store
+statement/
+statement/*
+result/
+result/*
+config_local.py
